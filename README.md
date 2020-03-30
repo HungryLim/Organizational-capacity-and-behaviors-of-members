@@ -96,3 +96,46 @@ A binary variable that shows whether there is at least one union candidate who r
    * e.g. For 2010 primary elections, I aggregate spending from 2009 to 2010 ballot access date for primaries
    
    
+# Union Membership
+{images/membermap.pdf
+
+# Unions' Political Spending
+images/moneymap.pdf}
+
+# Design
+Logit regression
+* Unit of analysis: District level
+* Year and state fixed effects
+* Dependent variable: At least one union candidate is running in a district (binary)
+* Explanatory variables: Indirect, direct $\&$ aggregated support (logged $\$$ of unions' spending during pre-primaries)
+* Control variables (district-level)
+
+Robustness tests with other modeling strategies (other identification strategies for inference)
+* Matching
+  * Regular matching (Propensity Score and Mahalanobis Distance Matching: Nearest Matching with Adjusted Balance)
+  * Matching with time-series-cross-sectional data
+  * Coarsened Exact Matching (CEM)
+  * Continuous Treatment with Covariate Balancing Generalized Propensity Score (CBGPS) Estimation
+
+* Instrumental Variable (Right-to-Work Laws)
+
+# Results
+  # Marginal Effect of Unions' Aggregated Support on Union Candidate Emergence
+images/pre_all.pdf}
+  # Marginal Effect of Unions' Indirect and Direct Support on Union Candidate Emergence
+images/pr_ind.pdf}
+  images/pre_dir.pdf}
+  # Different Types of Unions' Expenditures and Union Candidate Emergence
+  various_act.pdf}
+
+# Conclusion
+Organizations can incentivize their members to run for office by providing indirect and direct support with organizational capacity.
+* Union candidates are more likely to emerge where unions provide higher levels of indirect and direct support during the pre-primary period.
+
+This paper provides the first evidence that organized interests can impact who can emerge as candidates \textbf{before elections start}.
+* Particularly, I was able to measure two types of organizational support using micro-level organizational activity data.
+
+# Implications
+This paper’s findings establish the importance of organizations and their capacity in candidate emergence.
+* Union candidates can represent the working-class. (Burden 2007; Lamare 2016; Lowande, Ritchie and Lauterbach 2019)
+* The findings suggest an insight that can explain underrepresentation of certain groups in a society. 
