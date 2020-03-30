@@ -1,19 +1,17 @@
 # Organizational Capacity and Candidate Emergence: the Case of Union Members as Candidates for Public Office
 
-# Research Question and Motivation
-  # Why Candidate Emergence?
+# Research Question and Motivation: Why Candidate Emergence?
 * Candidate emergence is a crucial first step of representation. (Fox and Lawless 2011; Fraga, Juenke and Shah 2020; Maisel and Stone 1997)
 * Legislators' personal preferences, experiences, and identities often influence their policy making, accessibility, and representation. (Burden 2007; Carnes 2018; Lowande, Ritchie and Lauterbach 2019)
 
-# Background
-  # What explains candidate emergence?
+# Background: What explains candidate emergence?
 * Strength in numbers
 * Both "voter demand" and "candidate supply" sides of candidate emergence literature speak to strength in numbers as predictive of candidate emergence. (Branton 2009; Juenke, Gonzalez, and Shah 2016) 
 * The likelihood of minority descriptive representation increases as the district-level minority population increases. (Barreto, Segura, and Woods 2004; Branton 2009;  Lublin 1997)
     
 
 <p align="center">
-  <img src="asian.pdf" width="400" />
+  <img src="graphs/asian.pdf" width="400" />
 </p>
 
   # What explains candidate emergence?
@@ -23,7 +21,7 @@
 * Elites' personal encouragements (i.e., as organizational incentives) can facilitate people to enter politics. (Broockman 2014; Carnes 2018; Fox and Lawless 2010)
 
 <p align="center">
-  <img src="umem.pdf" width="400" />
+  <img src="graphs/umem.pdf" width="400" />
 </p>
 
   # Skepticism: Organizations and Institutions?
@@ -34,12 +32,10 @@ Whether and how can parties and organizations provide selective incentives to fo
 Organizations incentivize their members to run with organizational capacity. Then, how does candidate emergence operate within organizations? I argue that organizations can facilitate their members to run for office when organizations incentivize their members by providing political capital (indirect support) and monetary resources (direct support) with their organizational capacity.
 
 <p align="center">
-  <img src="umem.pdf" width="400" />
+  <img src="graphs/mech.png" width="400" />
 </p>
 
-<p align="center">
-  <img src="umem.pdf" width="400" />
-</p>
+
 
 # Case Selection: Unions and Candidates with Union Experience (Union Candidates) 
 * Political activity of organizations (Ahlquist and Levi, 2013; Jackson and Engel, 2003)
