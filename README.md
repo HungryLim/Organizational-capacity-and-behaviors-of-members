@@ -11,28 +11,29 @@
     
 
 <p align="center">
-  <img src="graphs/asian.pdf" width="400" />
+  <img src="graphs/asian-1.png" width="400" />
 </p>
 
-  # What explains candidate emergence?
+  # What explains candidate emergence? an alternative theory
 * Institutions & organizations
 * Organizations can promote political involvement of their members. (Andrews et al. 2010; Brady, Verba, and Schlozman 1995; Tate 2018)
 * Parties and interest groups engage in candidate selection and nomination. (See Bawn et al. 2012; Frendreis, Gibson and Vertz 1990; Seligman 1961)
 * Elites' personal encouragements (i.e., as organizational incentives) can facilitate people to enter politics. (Broockman 2014; Carnes 2018; Fox and Lawless 2010)
+* However, skepticism: Organizations and Institutions?
+    * Whether and how can parties and organizations provide selective incentives to foster candidate emergence? (See Maisel 2001; Carson, Engstrom and Roberts 2007; Cox and Katz 2002)
 
 <p align="center">
-  <img src="graphs/umem.pdf" width="400" />
+  <img src="graphs/umem-1.png" width="400" />
 </p>
 
-  # Skepticism: Organizations and Institutions?
-Whether and how can parties and organizations provide selective incentives to foster candidate emergence? (See Maisel 2001; Carson, Engstrom and Roberts 2007; Cox and Katz 2002)
+
   
   
 # Theory 
 Organizations incentivize their members to run with organizational capacity. Then, how does candidate emergence operate within organizations? I argue that organizations can facilitate their members to run for office when organizations incentivize their members by providing political capital (indirect support) and monetary resources (direct support) with their organizational capacity.
 
 <p align="center">
-  <img src="graphs/mech.png" width="400" />
+  <img src="graphs/mech.PNG" width="600" />
 </p>
 
 
@@ -52,8 +53,8 @@ Organizations incentivize their members to run with organizational capacity. The
 A binary variable that shows whether there is at least one union candidate who runs for U.S. House primaries in a district or not in 2008, 2010, and 2012  
 
 <p align="center">
-  <img src="year.pdf" width="400" />
-  <img src="candparty.pdf" width="400" />
+  <img src="graphs/year-1.png" width="400" />
+  <img src="graphs/candparty-1.png" width="400" />
 </p>
 
   # Explanatory Variables
@@ -93,10 +94,14 @@ A binary variable that shows whether there is at least one union candidate who r
    
    
 # Union Membership
-{images/membermap.pdf
-
+<p align="center">
+  <img src="graphs/membermap-1.png" width="500" />
+</p>
 # Unions' Political Spending
-images/moneymap.pdf}
+
+<p align="center">
+  <img src="graphs/moneymap-1.png" width="500" />
+</p>
 
 # Design
 Logit regression
@@ -117,12 +122,22 @@ Robustness tests with other modeling strategies (other identification strategies
 
 # Results
   # Marginal Effect of Unions' Aggregated Support on Union Candidate Emergence
-images/pre_all.pdf}
+
+<p align="center">
+  <img src="graphs/pre_all-1.png" width="500" />
+</p>
+
   # Marginal Effect of Unions' Indirect and Direct Support on Union Candidate Emergence
-images/pr_ind.pdf}
-  images/pre_dir.pdf}
+<p align="center">
+  <img src="graphs/pr_ind-1.png" width="400" />
+  <img src="graphs/pre_dir-1.png" width="400" />
+</p>
+
   # Different Types of Unions' Expenditures and Union Candidate Emergence
-  various_act.pdf}
+
+<p align="center">
+  <img src="graphs/various_act-1.png" width="500" />
+</p>
 
 # Conclusion
 Organizations can incentivize their members to run for office by providing indirect and direct support with organizational capacity.
