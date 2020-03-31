@@ -2,9 +2,12 @@
 
 # Research Question and Motivation: Why Candidate Emergence?
 * Candidate emergence is a crucial first step of representation. (Fox and Lawless 2011; Fraga, Juenke and Shah 2020; Maisel and Stone 1997)
+* Understanding how organizational activities can explain their memebers' behavior/participation is imoprtant 
 * Legislators' personal preferences, experiences, and identities often influence their policy making, accessibility, and representation. (Burden 2007; Carnes 2018; Lowande, Ritchie and Lauterbach 2019)
 
+
 # Background: What explains candidate emergence?
+* Among various forms of political behaviors, participating in politics directly as a political candidate is a relatively rare but crucial form of behavior.
 * Strength in numbers
 * Both "voter demand" and "candidate supply" sides of candidate emergence literature speak to strength in numbers as predictive of candidate emergence. (Branton 2009; Juenke, Gonzalez, and Shah 2016) 
 * The likelihood of minority descriptive representation increases as the district-level minority population increases. (Barreto, Segura, and Woods 2004; Branton 2009;  Lublin 1997)
@@ -58,6 +61,8 @@ A binary variable that shows whether there is at least one union candidate who r
 </p>
 
   # Explanatory Variables
+Using a large administrative data (Labor-management forms), I can locate each local union units in congressional districts. Also based on coordinate matching, I can estimate the number of union members in each congressional districts. Lastly, based on geo-located union units in congressional districts and each union units' unique ID, I can estimate their political spending from the labor-management forms. The estimates are visualized below.
+
 * Aggregated Support 
   * Aggregated political spending (logged$)
 * Direct Support
@@ -77,6 +82,7 @@ A binary variable that shows whether there is at least one union candidate who r
 |AERONAUTICAL EXAMINERS     | 81      | 2008        | ORANGE PARK| 391176 |  
 |AFSCME COUNCIL |45      | 2008        | 3325 CAPRICIO STREET NE    | 401148     |
 |AGRICULTURE EMPLOYEES        | 3       | 2008        |88 SWEET PEA LANE   | 374355  |
+|...       | ...      | ...        |...   | ...  |
 
 2. Classify each expenditure record
 
@@ -86,12 +92,17 @@ A binary variable that shows whether there is at least one union candidate who r
 |502                | DONATION                         | 2/28/2008   | 10400   | 363172  |
 |502                | Election 08' Political Training  | 4/15/2008   | 5587    | 369215  |
 |503                | PROMOTIONAL JACKETS              | 10/19/2007  | 6467    | 369259 |
+|...               | ...              | ...  |...   | ... |
 
 3. Match unions' characteristics data and disbursement data
 
 4. Aggregate these data into congressional district-level during the pre-primary period
    * e.g. For 2010 primary elections, I aggregate spending from 2009 to 2010 ballot access date for primaries
    
+# Location of unions
+<p align="center">
+  <img src="graphs/location.png" width="500" />
+</p>
    
 # Union Membership
 <p align="center">
@@ -106,7 +117,7 @@ A binary variable that shows whether there is at least one union candidate who r
 # Design
 Logit regression
 * Unit of analysis: District level
-* Year and state fixed effects
+* Year and state fixed effects (exploiting panel data)
 * Dependent variable: At least one union candidate is running in a district (binary)
 * Explanatory variables: Indirect, direct $\&$ aggregated support (logged $\$$ of unions' spending during pre-primaries)
 * Control variables (district-level)
