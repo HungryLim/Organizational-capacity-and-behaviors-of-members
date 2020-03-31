@@ -101,18 +101,18 @@ Using a large administrative data (Labor-management forms), I can locate each lo
    
 # Location of Unions
 <p align="center">
-  <img src="graphs/location.png" width="500" />
+  <img src="graphs/location.png" width="700" />
 </p>
    
 # Union Membership
 <p align="center">
-  <img src="graphs/membermap-1.png" width="500" />
+  <img src="graphs/membermap-1.png" width="700" />
 </p>
 
 # Unions' Political Spending
 
 <p align="center">
-  <img src="graphs/moneymap-1.png" width="500" />
+  <img src="graphs/moneymap-1.png" width="700" />
 </p>
 
 # Design
@@ -168,7 +168,7 @@ Further, to examine both indirect and direct support from unions more precisely,
 This finding implies that unions' training programs are effective ways to spur union candidates. Although few unions run training programs and invest less money to these programs than other types of political activities, these training programs are most likely to specifically designed to facilitate candidate emergence. Moreover, training programs could be mainly run by unions that have established political influences and experiences of institutionalizing candidate emergence programs. For instance, New Jersey American Federation of Labor and Congress of Industrial Organizations (AFL–CIO) has run "Labor Candidates Program" that promote their members to run for office for decades. Their programs have been successful role models for other unions and more recently other unions officially launched similar program called "Path to Power" to facilitate candidate emergence. In this training program, unions teach fundraising skills, campaign techniques, and effective messages, and building a campaign team. Therefore, this program and other like it may more directly influence union candidate emergence. However, only some unions have the capacity to run these well-designed programs, so the existence of these training programs may be a barometer of unions that have more political capacity.
 
 <p align="center">
-  <img src="graphs/various_act-1.png" width="500" />
+  <img src="graphs/various_act-1.png" width="700" />
 </p>
 
 # Matching strategies as robustness checks
