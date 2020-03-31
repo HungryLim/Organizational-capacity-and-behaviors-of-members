@@ -184,9 +184,10 @@ Choosing propensity score matching (PSM) method introduces "avoidable risks" and
 
 Therefore, a user should carefully explain the process of matching and present balance. Figure B.1 is a summary plot of covariate balance before and after conditioning. In a visually appealing and clear way, balance can be presented to demonstrate to readers that balance has been met within a threshold, and that balance has improved after conditioning. As \citet{king2019propensity} state, balance is not always improved after matching. Therefore, in this paper, first, I show the balance in my covariates used and use weighting scheme to adjust imbalance. Also, I need to note that I matched on following covariates: the number of unions, the number of union members, open seat, percent white, percent BA or higher, and recent Democratic Presidential vote share.
 
-
+logit_matchtable.PNG
 <p align="center">
   <img src="graphs/Balance-1.png" width="500" />
+    <img src="graphs/logit_matchtable.PNG" width="500" />
 </p>
 
 Since the balance of covariates are important to use matching method properly, I need to show the balance of covarites. Bascially, I should assess balance on the covariates of interest from the distance measure. If the balance is not achieve then I should readjust the the distance measure by using weighting scheme. To do this, I use \texttt{cobalt}, R package to assess the balance after matching. As Figure B.1 shows, before adjustment by weighting scheme suggested by Greifer with the R package, \texttt{cobalt} \cite{greifer2018covariate}, five covariates are unbalanced (number of union members, education, percent agriculture, urbanization, and Democratic presidential vote share).\footnote{The weighting method is followed by \citet{austin2008critical}.} Figure B.1 shows that balance was improved on almost all variables after adjustment, bringing all but two below the threshold of 0.1 for absolute mean differences.
@@ -200,11 +201,11 @@ The last robustness that I include in this report is instrumentla variable appro
 
 
 <p align="center">
-  <img src="graphs/instr-1.png" width="500" />
+  <img src="graphs/instr_table.PNG" width="500" />  
 </p>
 
 
-# Conclusion
+# Conclusion: Take away
 Organizations can incentivize their members to run for office by providing indirect and direct support with organizational capacity.
 * Union candidates are more likely to emerge where unions provide higher levels of indirect and direct support during the pre-primary period.
 
