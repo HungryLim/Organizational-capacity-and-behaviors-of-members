@@ -99,7 +99,7 @@ Using a large administrative data (Labor-management forms), I can locate each lo
 4. Aggregate these data into congressional district-level during the pre-primary period
    * e.g. For 2010 primary elections, I aggregate spending from 2009 to 2010 ballot access date for primaries
    
-# Location of unions
+# Location of Unions
 <p align="center">
   <img src="graphs/location.png" width="500" />
 </p>
@@ -108,6 +108,7 @@ Using a large administrative data (Labor-management forms), I can locate each lo
 <p align="center">
   <img src="graphs/membermap-1.png" width="500" />
 </p>
+
 # Unions' Political Spending
 
 <p align="center">
@@ -115,6 +116,7 @@ Using a large administrative data (Labor-management forms), I can locate each lo
 </p>
 
 # Design
+
 Logit regression
 * Unit of analysis: District level
 * Year and state fixed effects (exploiting panel data)
