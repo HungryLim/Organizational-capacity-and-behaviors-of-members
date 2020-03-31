@@ -175,19 +175,24 @@ This finding implies that unions' training programs are effective ways to spur u
    # Matching with TSCS
 To further substantiate the findings, I used matching methods for causal inference.21Thismethod allows me to estimate average treatment effect on treated (ATT). As Table 5 shows,the matched data decrease the sample size substantially.  This is mainly because matchingmethods for causal inference with TSCS data only match treated and controlled within thesame time period that has treatment history with lag of 1 time period in this paper.  Table 5shows the ATT of unions’ support on union candidate emergence. The size of effect estimatedas ATT is large that union candidates are about 20% more likely to emerge from a districtwhere unions provide support comparing to a district where unions provide no support.
 
+<p align="center">
+  <img src="graphs/tscs_table.PNG" width="400" />
+</p>
+
    # Balance in Matching and Adjustment by Weights 
 Choosing propensity score matching (PSM) method introduces "avoidable risks" and so researchers should report on what techniques they used to avoid the resulting problems. \citet{king2019propensity}'s main concerns of using PSM is that propsensity score matching can increase imbalance, inefficiency, model dependence, and bias that are the opposite of its intended goal using this PSM. 
 
 Therefore, a user should carefully explain the process of matching and present balance. Figure B.1 is a summary plot of covariate balance before and after conditioning. In a visually appealing and clear way, balance can be presented to demonstrate to readers that balance has been met within a threshold, and that balance has improved after conditioning. As \citet{king2019propensity} state, balance is not always improved after matching. Therefore, in this paper, first, I show the balance in my covariates used and use weighting scheme to adjust imbalance. Also, I need to note that I matched on following covariates: the number of unions, the number of union members, open seat, percent white, percent BA or higher, and recent Democratic Presidential vote share.
 
+
 <p align="center">
   <img src="graphs/Balance-1.png" width="500" />
 </p>
 
-  
 Since the balance of covariates are important to use matching method properly, I need to show the balance of covarites. Bascially, I should assess balance on the covariates of interest from the distance measure. If the balance is not achieve then I should readjust the the distance measure by using weighting scheme. To do this, I use \texttt{cobalt}, R package to assess the balance after matching. As Figure B.1 shows, before adjustment by weighting scheme suggested by Greifer with the R package, \texttt{cobalt} \cite{greifer2018covariate}, five covariates are unbalanced (number of union members, education, percent agriculture, urbanization, and Democratic presidential vote share).\footnote{The weighting method is followed by \citet{austin2008critical}.} Figure B.1 shows that balance was improved on almost all variables after adjustment, bringing all but two below the threshold of 0.1 for absolute mean differences.
 
-Propensity score  matching and Mahalanobis  Distance Matching  (MDM)  methods  are dif-feretn  but  similar  in  that  they  can  fall  within  the  Equal  Percent  Bias  Reducing  (EPBR)class (Rubin, 1974; Rubin,  Stuart et al., 2006).  Coarsened Exact Matching (CEM) is theleading example within the Monotonic Imbalance Bounding (MIB) class (Iacus,  King andPorro, 2012).
+
+Propensity score matching and Mahalanobis Distance Matching (MDM) methods are differetn but similar in that they can fall within the Equal Percent Bias Reducing (EPBR) class \cite{rubin1974estimating,rubin2006affinely}. Coarsened Exact Matching (CEM) is the leading example within the Monotonic Imbalance Bounding (MIB) class \cite{iacus2012causal}. In the later section, I used CEM for MIB class matching\footnote{I matched on the number of unions, the number of union members, open seat, percent white, percent BA or higher, and recent Democratic Presidential vote share.}.
 
 
    # Instrumental Variable (Right-to-Work Laws)
