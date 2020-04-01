@@ -61,7 +61,9 @@ A binary variable that shows whether there is at least one union candidate who r
 </p>
 
   # Explanatory Variables
-Using a large administrative data (Labor-management forms), I can locate each local union units in congressional districts. Also based on coordinate matching, I can estimate the number of union members in each congressional districts. Lastly, based on geo-located union units in congressional districts and each union units' unique ID, I can estimate their political spending from the labor-management forms. The estimates are visualized below.
+Using a large administrative data (Labor-management forms), I can locate each local union units in congressional districts. Also based on coordinate matching, I can estimate the number of union members in each congressional districts. Lastly, based on geo-located union units in congressional districts and each union units' unique ID, I can estimate their political spending from the labor-management forms. The estimates are visualized below. 
+
+I uploaded the final step of cleaning data that I aggregate data by congressional district (cleaning_final_step.R).
 
 * Aggregated Support 
   * Aggregated political spending (logged$)
