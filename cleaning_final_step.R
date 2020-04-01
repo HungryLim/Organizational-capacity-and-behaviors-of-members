@@ -1,5 +1,5 @@
 
-#read data
+#read data; I cannot share the data for this project, but the data is basically large administrative data from the U.S. department of Labor
 cd_unions1<-read.csv('')
 cd_unions2<-read.csv('')
 cd_unions3<-read.csv('')
