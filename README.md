@@ -74,6 +74,7 @@ I uploaded the final step of cleaning data that I aggregate data by congressiona
 
   # Measuring Indirect and Direct Support
 1. Geo-code local unions' addresses and locate them in congressional districts
+* locating local unions in congressional districts by using their street address through Google Civic API and coordinate matching vis Shapefiles. I uploaded Python script using Google Civic API in this repo.
 
 |Union Name   |Members | Year |Street Address | **RPT ID** |
 |-------------|---------|------|--------------|-----------|
