@@ -1,5 +1,5 @@
 # Organizational Capacity and Candidate Emergence: the Case of Union Members as Candidates for Public Office
-Please find my presenation here(
+Please find my presenation file [here](https://github.com/HungryLim/Organizational-capacity-and-behaviors-of-members/blob/master/Presentation.pdf).
 
 # Research Question and Motivation: Why Candidate Emergence?
 * Candidate emergence is a crucial first step of representation. (Fox and Lawless 2011; Fraga, Juenke and Shah 2020; Maisel and Stone 1997)
