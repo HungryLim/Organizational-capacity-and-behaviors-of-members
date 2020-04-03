@@ -119,7 +119,7 @@ I uploaded the final step of cleaning data that I aggregate data by congressiona
   <img src="graphs/moneymap-1.png" width="700" />
 </p>
 
-# Design
+# Method
 It would be ideal to randomly assign unions' organizational incentives (treatment) to individuals to compare against controls, however this design is not feasible for my study. Therefore, I examine my theoretical argument with a series of analyses of district-level data with two identification strategies. First, by exploiting panel data, I use logit regression with fixed effects to examine the relationship between unions' support and the likelihood of union candidate emergence (e.g., regression models with fixed effects are widely used to estimate causal inference in social science \citealt{angrist2008mostly}). Second, I use a matching method for causal inference with Time Series Cross Sectional (TSCS) data (a non-parametric generalized difference-in-differences estimator) proposed by \citet{imai2018matching} as robustness checks.\footnote{I also show a series of robustness tests in the Appendix B, but I only present the outcomes of a matching method with TSCS data in text.} Additionally, such matching offers robust results even when there are concerns of model dependence. 
 
 Logit regression
